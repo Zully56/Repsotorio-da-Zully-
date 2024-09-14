@@ -1,0 +1,107 @@
+//Exer 1 
+
+let i= 7
+
+while(i > 0){
+    console.log(`numero: ${i}`)
+    i --
+}
+console.log("Fim do codigo")
+
+//exer 1
+let i = 0
+
+while(i <= 20){
+    console.log(`${i}`)
+    i= i +2
+}
+console.log ("Fim de cogigo")
+
+//exer 2
+
+let x=10
+let y=1
+
+while(x > 1){
+    console.log(`${y=-3*x + 13}`)
+    i= i - 3 
+}
+console.log ("Fim de codigo")  
+
+//exer 3
+let i= 1
+while(i < 10){
+console.log(`${i*i}`)
+i ++
+}
+console.log("Fim de codigo")
+
+//for 
+
+let i
+let x=0
+let y=1
+let z= x + y
+console.log(x)
+console.log(y)
+
+for(i=1;i<=13;i++){
+    console.log(z)
+    x=y
+    y=z
+    z= x + y
+
+}
+console.log("Fim do codigo")
+
+//array 
+let frutas = ['maça','banana','laranja']
+console.log(frutas[1])
+frutas[1]='uva'   
+console.log(frutas)
+
+//length para saber cuantos elementos tem 
+
+// POP
+let frutas = ['maça','banana','laranja']
+frutas.pop()
+console.log( frutas)
+
+//PUSH 
+let frutas = ['maça','banana','laranja']
+frutas.push('uva')
+console.log( frutas)
+
+//SPLICE
+let frutas = ['maça','banana','laranja','uva']
+frutas.splice(1,1,'abacaxi','manga')
+console.log( frutas)
+
+let frutas = ['maça','banana','laranja','uva']
+let i 
+
+for(i=0;i<frutas.length;i++){
+    console.log(frutas[i])
+}
+console.log("fim")
+
+//exer array
+let numeros=[]
+let i 
+par=[]
+impar=[]
+for(i=1;i<=100;i++){
+    numeros.push(i)
+}
+console.log(numeros)
+
+for(i=1;i<=100;i++){
+    if(i % 2==0){
+        par.push(i)
+     } else{
+         impar.push(i)
+     }
+}
+  
+console.log(par)
+console.log(impar)
